@@ -41,7 +41,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
 
 #if QT_VERSION >= 0x040700
      /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-     ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a BlockChainOfTraceableCommodities address"));
+     ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a InterPlanetaryFileSystem address"));
 #endif
 
     addEntry();
@@ -490,7 +490,7 @@ void SendCoinsDialog::updateDisplayUnit()
          else if (!CBitcoinAddress(text.toStdString()).IsValid())
          {
              ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:red;}");
-             ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid BlockChainOfTraceableCommodities address"));
+             ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid InterPlanetaryFileSystem address"));
          }
          else
          {

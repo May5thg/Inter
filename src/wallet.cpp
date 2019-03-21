@@ -19,8 +19,8 @@ extern int nStakeMaxAge;
 
 // Settings
 //int64_t nTransactionFee = MIN_TX_FEE;
-int64_t nReserveBalance = 0;
-int64_t nMinimumInputValue = 0;
+int64 nReserveBalance = 0;
+int64 nMinimumInputValue = 0;
 
 static unsigned int GetStakeSplitAge() { return 8 * 24 * 60 * 60; }
 static int64_t GetStakeCombineThreshold() { return 50 * COIN; }

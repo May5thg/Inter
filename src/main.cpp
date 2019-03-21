@@ -45,7 +45,7 @@ unsigned int nStakeMinAge = 60 * 60 * 24; // #* minimum age for coin age: 1d —
 unsigned int nStakeMaxAge = 60 * 60 * 24 * 30;	// stake age of full weight: 30d
 unsigned int nStakeTargetSpacing = 60;			// 60 sec block spacing
 
-int64 nChainStartTime = 1530258160;
+int64 nChainStartTime = 1533957043;
 int nCoinbaseMaturity = 80;
 
 CBlockIndex* pindexGenesisBlock = NULL;
@@ -69,7 +69,7 @@ map<uint256, map<uint256, CDataStream*> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "BlockChainOfTraceableCommodities Signed Message:\n";
+const string strMessageMagic = "InterPlanetaryFileSystem Signed Message:\n";
 
 double dHashesPerSec;
 int64 nHPSTimerStart;
@@ -493,6 +493,7 @@ bool CTransaction::CheckTransaction() const
         if (txout.nValue < 0)
            return DoS(100, error("CTransaction::CheckTransaction() : txout.nValue negative"));
 
+        printf("txout.nValue = %lld, MAX_MONEY = %lld, COIN = %lld\n", txout.nValue, MAX_MONEY, COIN);
         if (txout.nValue > MAX_MONEY)
             return DoS(100, error("CTransaction::CheckTransaction() : txout.nValue too high"));
         nValueOut += txout.nValue;
@@ -995,13 +996,12 @@ int64 GetProofOfWorkReward(int nHeight, int64 nFees, uint256 prevHash)
 
     if(nHeight == 1)
     {
-        nSubsidy = 3100000000 * COIN;
-	}
-
-//    else if(nHeight > 100 && nHeight <= POW_CUTOFF_BLOCK)//pingbi
-//    {
-//        nSubsidy = 0.0 * COIN;
-//    }
+        nSubsidy = 150000000 * COIN;
+    } else {
+        int halvings = nHeight / nSubsidyHalvingInterval;
+        nSubsidy = 100 * COIN;
+        nSubsidy >>= halvings;
+    }
 	
     return nSubsidy + nFees;
 }
@@ -1549,8 +1549,8 @@ bool CBlock::ConnectBlock(CTxDB& txdb, CBlockIndex* pindex, bool fJustCheck)
     // Now that the whole chain is irreversibly beyond that time it is applied to all blocks except the
     // two in the chain that violate it. This prevents exploiting the issue against nodes in their
     // initial block download.
-    bool fEnforceBIP30 = true; // Always active in BlockChainOfTraceableCommodities
-    bool fStrictPayToScriptHash = true; // Always active in BlockChainOfTraceableCommodities
+    bool fEnforceBIP30 = true; // Always active in InterPlanetaryFileSystem
+    bool fStrictPayToScriptHash = true; // Always active in InterPlanetaryFileSystem
 
     //// issue here: it doesn't know the version
     unsigned int nTxPos;
@@ -2522,7 +2522,7 @@ bool CheckDiskSpace(uint64 nAdditionalBytes)
         string strMessage = _("Warning: Disk space is low!");
         strMiscWarning = strMessage;
         printf("*** %s\n", strMessage.c_str());
-        uiInterface.ThreadSafeMessageBox(strMessage, "BlockChainOfTraceableCommodities", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+        uiInterface.ThreadSafeMessageBox(strMessage, "InterPlanetaryFileSystem", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
         StartShutdown();
         return false;
     }
@@ -2615,7 +2615,7 @@ bool LoadBlockIndex(bool fAllowNew)
             return false;
 
         // 创世块信息 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-        const char* pszTimestamp = "BlockChainOfTraceableCommodities created by Lin 2018-06-29";
+        const char* pszTimestamp = "InterPlanetaryFileSystem created by 2018-08-11.";
         CTransaction txNew;
         txNew.nTime = nChainStartTime;
         txNew.vin.resize(1);
@@ -2630,6 +2630,8 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nVersion = 1;
         block.nTime    = nChainStartTime + 60;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
+        printf("nTime:%lld\n", nChainStartTime + 60);
+        printf("nBits:%d\n", bnProofOfWorkLimit.GetCompact());
 
         block.nNonce   = 0;//12480000;//56962;
 
@@ -2658,15 +2660,15 @@ bool LoadBlockIndex(bool fAllowNew)
 
 		}
 
-       // printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
-       // printf("block.hashMerkleRoot == %s\n", block.hashMerkleRoot.ToString().c_str());
-       // printf("block.nTime = %u \n", block.nTime);
-       // printf("block.nNonce = %u \n", block.nNonce);
+        printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
+        printf("block.hashMerkleRoot == %s\n", block.hashMerkleRoot.ToString().c_str());
+        printf("block.nTime = %u \n", block.nTime);
+        printf("block.nNonce = %u \n", block.nNonce);
 		block.print();
 
-        assert(block.hashMerkleRoot == uint256("0xb299b51646b8ab701ede6b9a895bad171af3b5a68618259e7a5ada61d64c83cb"));// #?2 创世块哈希值？改过创世块的信息，这里就要改——第一次编译运行出错后再改这里（看教程）
+        assert(block.hashMerkleRoot == uint256("0xfa3ebb2c088121e88db14543daceb1613f0c35a8389d088485e8c21ebfc0f220"));// #?2 创世块哈希值？改过创世块的信息，这里就要改——第一次编译运行出错后再改这里（看教程）
 		assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
-			//printf("nonce=%u hashGenesisNew=%s target=%s\n",block.nNonce, hashGenesisNew.ToString().c_str(),bnProofOfWorkLimit.getuint256().ToString().c_str());
+		//printf("nonce=%u hashGenesisNew=%s target=%s\n",block.nNonce, hashGenesisNew.ToString().c_str(),bnProofOfWorkLimit.getuint256().ToString().c_str());
        
 
 	

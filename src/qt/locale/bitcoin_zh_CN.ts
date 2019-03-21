@@ -5,15 +5,15 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About BlockChainOfTraceableCommodities</source>
+        <source>About InterPlanetaryFileSystem</source>
         <translation type="obsolete">关于品源链</translation>
     </message>
     <message>
-        <source>&lt;b&gt;BlockChainOfTraceableCommodities&lt;/b&gt; version</source>
+        <source>&lt;b&gt;InterPlanetaryFileSystem&lt;/b&gt; version</source>
         <translation type="obsolete">品源链版本</translation>
     </message>
     <message>
-        <source>Copyright © 2018 The BlockChainOfTraceableCommodities developers</source>
+        <source>Copyright © 2018 The InterPlanetaryFileSystem developers</source>
         <translation type="obsolete">版权所有 © 2018 品源链开发团队</translation>
     </message>
     <message>
@@ -33,12 +33,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BlockChainOfTraceableCommodities</source>
+        <source>About InterPlanetaryFileSystem</source>
         <translation type="unfinished">关于品源链</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BlockChainOfTraceableCommodities&lt;/b&gt; version</source>
+        <source>&lt;b&gt;InterPlanetaryFileSystem&lt;/b&gt; version</source>
         <translation type="unfinished">品源链版本</translation>
     </message>
     <message>
@@ -46,12 +46,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>
 Copyright © 2009-2012 Bitcoin Developers
 Copyright © 2012 PeerCoin Developers
-Copyright © 2018 BlockChainOfTraceableCommodities Developers
+Copyright © 2018 InterPlanetaryFileSystem Developers
 </source>
         <translation type="unfinished">
 版权所有 2009-2012 Bitcoin 开发团队
 版权所有 2012 PeerCoin 开发团队
-版权所有 2018 BlockChainOfTraceableCommodities 开发团队</translation>
+版权所有 2018 InterPlanetaryFileSystem 开发团队</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -78,8 +78,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+6"/>
-        <source>There are your BlockChainOfTraceableCommodities addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="unfinished">这是您用来收款的 BCTC 币地址。为了标记不同的资金来源，建议为每个付款人保留不同的收款地址。</translation>
+        <source>There are your InterPlanetaryFileSystem addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation type="unfinished">这是您用来收款的 SFIS 币地址。为了标记不同的资金来源，建议为每个付款人保留不同的收款地址。</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -98,7 +98,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+25"/>
-        <source>Sign a message to prove you own a BlockChainOfTraceableCommodities address</source>
+        <source>Sign a message to prove you own a InterPlanetaryFileSystem address</source>
         <translation type="unfinished">发送签名消息以证明您是该品源链地址的拥有者</translation>
     </message>
     <message>
@@ -127,7 +127,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Verify a message to ensure it was signed with a specified BlockChainOfTraceableCommodities address</source>
+        <source>Verify a message to ensure it was signed with a specified InterPlanetaryFileSystem address</source>
         <translation type="unfinished">进行消息验证，以确认该消息是被某一品源链地址签名的。</translation>
     </message>
     <message>
@@ -273,7 +273,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>BlockChainOfTraceableCommodities will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>InterPlanetaryFileSystem will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">品源链将关闭客户端软件以完成加密过程，完成加密后，请即时备份加密后的钱包。 请您谨记：钱包加密并不是万能的，电脑中毒，您的品源链还是有可能丢失。</translation>
     </message>
     <message>
@@ -345,12 +345,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+87"/>
         <location line="+60"/>
-        <source>BlockChainOfTraceableCommodities client</source>
+        <source>InterPlanetaryFileSystem client</source>
         <translation type="unfinished">品源链客户端</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BlockChainOfTraceableCommodities network</source>
+        <source>%n active connection(s) to InterPlanetaryFileSystem network</source>
         <translation>
             <numerusform>到品源链网络的活动连接共有%n条</numerusform>
         </translation>
@@ -367,7 +367,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-126"/>
-        <source>BlockChainOfTraceableCommodities</source>
+        <source>InterPlanetaryFileSystem</source>
         <translation type="unfinished">品源链</translation>
     </message>
     <message>
@@ -377,7 +377,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+6"/>
-        <source>Send coins to a BlockChainOfTraceableCommodities address</source>
+        <source>Send coins to a InterPlanetaryFileSystem address</source>
         <translation type="unfinished">向一个品源链地址发送品源链</translation>
     </message>
     <message>
@@ -463,7 +463,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+216"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BlockChainOfTraceableCommodities address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid InterPlanetaryFileSystem address or malformed URI parameters.</source>
         <translation type="unfinished">URI无法解析! 可能是因为品源链地址无效或URI参数不正确。</translation>
     </message>
     <message>
@@ -503,12 +503,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+39"/>
-        <source>&amp;About BlockChainOfTraceableCommodities</source>
+        <source>&amp;About InterPlanetaryFileSystem</source>
         <translation type="unfinished">关于品源链</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about BlockChainOfTraceableCommodities</source>
+        <source>Show information about InterPlanetaryFileSystem</source>
         <translation type="unfinished">显示品源链的相关信息</translation>
     </message>
     <message>
@@ -543,7 +543,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Modify configuration options for BlockChainOfTraceableCommodities</source>
+        <source>Modify configuration options for InterPlanetaryFileSystem</source>
         <translation type="unfinished">修改品源链配置选项</translation>
     </message>
     <message>
@@ -575,11 +575,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="obsolete">正在为数据块建立索引...</translation>
     </message>
     <message>
-        <source>Send coins to a BlockChainOfTraceableCommodities address</source>
+        <source>Send coins to a InterPlanetaryFileSystem address</source>
         <translation type="obsolete">发币给一个品源链地址</translation>
     </message>
     <message>
-        <source>Modify configuration options for BlockChainOfTraceableCommodities</source>
+        <source>Modify configuration options for InterPlanetaryFileSystem</source>
         <translation type="obsolete">设置选项</translation>
     </message>
     <message>
@@ -613,7 +613,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>验证消息...</translation>
     </message>
     <message>
-        <source>BlockChainOfTraceableCommodities</source>
+        <source>InterPlanetaryFileSystem</source>
         <translation type="obsolete">品源链</translation>
     </message>
     <message>
@@ -635,11 +635,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="obsolete">对钱包中的私钥加密</translation>
     </message>
     <message>
-        <source>Sign messages with your BlockChainOfTraceableCommodities addresses to prove you own them</source>
+        <source>Sign messages with your InterPlanetaryFileSystem addresses to prove you own them</source>
         <translation type="obsolete">用品源链地址关联的私钥为消息签名，以证明您拥有这个品源链地址</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BlockChainOfTraceableCommodities addresses</source>
+        <source>Verify messages to ensure they were signed with specified InterPlanetaryFileSystem addresses</source>
         <translation type="obsolete">校验消息，确保该消息是由指定的品源链地址所有者签名的</translation>
     </message>
     <message>
@@ -674,11 +674,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>BlockChainOfTraceableCommodities client</source>
+        <source>InterPlanetaryFileSystem client</source>
         <translation type="obsolete">品源链客户端</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to BlockChainOfTraceableCommodities network</source>
+        <source>%n active connection(s) to InterPlanetaryFileSystem network</source>
         <translation type="obsolete">
             <numerusform>到品源链网络的连接共有%n条</numerusform>
         </translation>
@@ -796,7 +796,7 @@ Address: %4
         <translation>URI 处理</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid BlockChainOfTraceableCommodities address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid InterPlanetaryFileSystem address or malformed URI parameters.</source>
         <translation type="obsolete">URI无法解析！原因可能是品源链地址不正确，或者URI参数错误。</translation>
     </message>
     <message>
@@ -811,7 +811,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BlockChainOfTraceableCommodities can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. InterPlanetaryFileSystem can no longer continue safely and will quit.</source>
         <translation type="unfinished">发生致命错误. 品源链客户端的安全存在问题，将退出.</translation>
     </message>
 </context>
@@ -1153,11 +1153,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BlockChainOfTraceableCommodities address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid InterPlanetaryFileSystem address.</source>
         <translation type="unfinished">您输入的不是有效的品源链地址。</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid BlockChainOfTraceableCommodities address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid InterPlanetaryFileSystem address.</source>
         <translation type="obsolete">您输入的不是合法的品源链地址.</translation>
     </message>
     <message>
@@ -1174,8 +1174,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>GUIUtil::HelpMessageBox</name>
     <message>
-        <source>BlockChainOfTraceableCommodities-Qt</source>
-        <translation type="obsolete">BlockChainOfTraceableCommodities-Qt</translation>
+        <source>InterPlanetaryFileSystem-Qt</source>
+        <translation type="obsolete">InterPlanetaryFileSystem-Qt</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+419"/>
@@ -1185,7 +1185,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+0"/>
         <location line="+12"/>
-        <source>BlockChainOfTraceableCommodities-Qt</source>
+        <source>InterPlanetaryFileSystem-Qt</source>
         <translation type="unfinished">品源链钱包</translation>
     </message>
     <message>
@@ -1244,12 +1244,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BlockChainOfTraceableCommodities after logging in to the system.</source>
+        <source>Automatically start InterPlanetaryFileSystem after logging in to the system.</source>
         <translation type="unfinished">登录系统后自动开启品源链客户端</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BlockChainOfTraceableCommodities on system login</source>
+        <source>&amp;Start InterPlanetaryFileSystem on system login</source>
         <translation>启动时运行</translation>
     </message>
     <message>
@@ -1271,7 +1271,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>网络</translation>
     </message>
     <message>
-        <source>Automatically open the BlockChainOfTraceableCommodities client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the InterPlanetaryFileSystem client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="obsolete">自动在路由器中打开品源链端口。只有当您的路由器开启 UPnP 选项时此功能才有效。</translation>
     </message>
     <message>
@@ -1280,7 +1280,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>使用映射端口</translation>
     </message>
     <message>
-        <source>Connect to the BlockChainOfTraceableCommodities network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the InterPlanetaryFileSystem network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="obsolete">通过代理服务器连接品源链网络(例如：通过Tor连接)</translation>
     </message>
     <message>
@@ -1290,12 +1290,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the BlockChainOfTraceableCommodities client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the InterPlanetaryFileSystem client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">路由器自动打开品源链客户端端口。该功能仅在路由器开启UPnP支持时有效。</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Connect to the BlockChainOfTraceableCommodities network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the InterPlanetaryFileSystem network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished">经SOCKS代理连接到品源链网络(例如使用Tor)</translation>
     </message>
     <message>
@@ -1370,12 +1370,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BlockChainOfTraceableCommodities.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting InterPlanetaryFileSystem.</source>
         <translation type="unfinished">在此设置用户界面语言。重启品源链客户端后设置生效。</translation>
     </message>
     <message>
         <location line="+33"/>
-        <source>Whether to show BlockChainOfTraceableCommodities addresses in the transaction list.</source>
+        <source>Whether to show InterPlanetaryFileSystem addresses in the transaction list.</source>
         <translation type="unfinished">是否在交易列表中显示品源链地址.</translation>
     </message>
     <message>
@@ -1426,7 +1426,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+148"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BlockChainOfTraceableCommodities.</source>
+        <source>This setting will take effect after restarting InterPlanetaryFileSystem.</source>
         <translation type="unfinished">重启客户端后设置生效</translation>
     </message>
     <message>
@@ -1448,7 +1448,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>警告</translation>
     </message>
     <message>
-        <source>This setting will take effect after restarting BlockChainOfTraceableCommodities.</source>
+        <source>This setting will take effect after restarting InterPlanetaryFileSystem.</source>
         <translation type="obsolete">需要重启客户端软件才能生效。</translation>
     </message>
     <message>
@@ -1465,7 +1465,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>表单</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BlockChainOfTraceableCommodities network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the InterPlanetaryFileSystem network after a connection is established, but this process has not completed yet.</source>
         <translation type="obsolete">现在显示的消息可能是过期的. 在连接上品源链网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成.</translation>
     </message>
     <message>
@@ -1486,7 +1486,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+7"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BlockChainOfTraceableCommodities network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the InterPlanetaryFileSystem network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">所显示的信息尚未更新，建立连接后钱包客户端会自动和网络进行同步，但目前该过程尚未完成。</translation>
     </message>
     <message>
@@ -1559,7 +1559,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>PaymentServer</name>
     <message>
-        <source>Cannot start BlockChainOfTraceableCommodities: click-to-pay handler</source>
+        <source>Cannot start InterPlanetaryFileSystem: click-to-pay handler</source>
         <translation type="obsolete">暂时无法启动品源链：点击支付功能</translation>
     </message>
 </context>
@@ -1665,12 +1665,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-10"/>
-        <source>BlockChainOfTraceableCommodities - Debug window</source>
+        <source>InterPlanetaryFileSystem - Debug window</source>
         <translation type="unfinished">品源链 - 调试窗口</translation>
     </message>
     <message>
         <location line="+313"/>
-        <source>BlockChainOfTraceableCommodities Core</source>
+        <source>InterPlanetaryFileSystem Core</source>
         <translation type="unfinished">品源链核心信息</translation>
     </message>
     <message>
@@ -1720,7 +1720,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+134"/>
-        <source>Open the BlockChainOfTraceableCommodities debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the InterPlanetaryFileSystem debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished">打开当前数据文件夹下的调试日志，若调试日志文件很大，可能花费较长时间。</translation>
     </message>
     <message>
@@ -1735,12 +1735,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-131"/>
-        <source>Show the BlockChainOfTraceableCommodities-Qt help message to get a list with possible BlockChainOfTraceableCommodities command-line options.</source>
+        <source>Show the InterPlanetaryFileSystem-Qt help message to get a list with possible InterPlanetaryFileSystem command-line options.</source>
         <translation type="unfinished">显示品源链帮助消息，获得品源链命令行命令.</translation>
     </message>
     <message>
-        <source>Show the BlockChainOfTraceableCommodities-Qt help message to get a list with possible BlockChainOfTraceableCommodities command-line options.</source>
-        <translation type="obsolete">显示BlockChainOfTraceableCommodities命令行选项帮助信息</translation>
+        <source>Show the InterPlanetaryFileSystem-Qt help message to get a list with possible InterPlanetaryFileSystem command-line options.</source>
+        <translation type="obsolete">显示InterPlanetaryFileSystem命令行选项帮助信息</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1758,11 +1758,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>创建时间</translation>
     </message>
     <message>
-        <source>BlockChainOfTraceableCommodities - Debug window</source>
+        <source>InterPlanetaryFileSystem - Debug window</source>
         <translation type="obsolete">品源链 - 调试窗口</translation>
     </message>
     <message>
-        <source>BlockChainOfTraceableCommodities Core</source>
+        <source>InterPlanetaryFileSystem Core</source>
         <translation type="obsolete">品源链核心</translation>
     </message>
     <message>
@@ -1771,7 +1771,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>调试日志文件</translation>
     </message>
     <message>
-        <source>Open the BlockChainOfTraceableCommodities debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the InterPlanetaryFileSystem debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="obsolete">打开当前目录中的调试日志文件。日志文件大的话可能要等上几秒钟。</translation>
     </message>
     <message>
@@ -1780,12 +1780,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>清空控制台</translation>
     </message>
     <message>
-        <source>Welcome to the BlockChainOfTraceableCommodities RPC console.</source>
+        <source>Welcome to the InterPlanetaryFileSystem RPC console.</source>
         <translation type="obsolete">欢迎来到 RPC 控制台.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BlockChainOfTraceableCommodities RPC console.</source>
+        <source>Welcome to the InterPlanetaryFileSystem RPC console.</source>
         <translation type="unfinished">欢迎使用品源链RPC控制台</translation>
     </message>
     <message>
@@ -1859,8 +1859,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BCTC</source>
-        <translation type="unfinished">0.00 BCTC</translation>
+        <source>0.00 SFIS</source>
+        <translation type="unfinished">0.00 SFIS</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1929,8 +1929,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BCTC</source>
-        <translation type="unfinished">123.456 BCTC</translation>
+        <source>123.456 SFIS</source>
+        <translation type="unfinished">123.456 SFIS</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1944,7 +1944,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-191"/>
-        <source>Enter a BlockChainOfTraceableCommodities address</source>
+        <source>Enter a InterPlanetaryFileSystem address</source>
         <translation type="unfinished">请输入一个品源链地址</translation>
     </message>
     <message>
@@ -2039,7 +2039,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+262"/>
-        <source>WARNING: Invalid BlockChainOfTraceableCommodities address</source>
+        <source>WARNING: Invalid InterPlanetaryFileSystem address</source>
         <translation type="unfinished">警告:无效的品源链地址</translation>
     </message>
     <message>
@@ -2121,12 +2121,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>移除此接收者</translation>
     </message>
     <message>
-        <source>Enter a valid BlockChainOfTraceableCommodities address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a valid InterPlanetaryFileSystem address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="obsolete">输入一个有效的品源链地址 (例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a valid BlockChainOfTraceableCommodities address</source>
+        <source>Enter a valid InterPlanetaryFileSystem address</source>
         <translation type="unfinished">输入一个有效的品源链地址</translation>
     </message>
 </context>
@@ -2186,7 +2186,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+45"/>
-        <source>Sign the message to prove you own this BlockChainOfTraceableCommodities address</source>
+        <source>Sign the message to prove you own this InterPlanetaryFileSystem address</source>
         <translation type="unfinished">对该消息进行签名以证明您对该品源链地址的所有权</translation>
     </message>
     <message>
@@ -2196,7 +2196,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BlockChainOfTraceableCommodities address</source>
+        <source>Verify the message to ensure it was signed with the specified InterPlanetaryFileSystem address</source>
         <translation type="unfinished">验证消息，确保消息是由指定的品源链地址签名过的。</translation>
     </message>
     <message>
@@ -2209,7 +2209,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>复制当前签名至剪切板</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BlockChainOfTraceableCommodities address</source>
+        <source>Sign the message to prove you own this InterPlanetaryFileSystem address</source>
         <translation type="obsolete">签名消息，证明这个地址属于您。</translation>
     </message>
     <message>
@@ -2243,7 +2243,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="obsolete">用于签名消息的地址(例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BlockChainOfTraceableCommodities address</source>
+        <source>Verify the message to ensure it was signed with the specified InterPlanetaryFileSystem address</source>
         <translation type="obsolete">验证消息，确保消息是由指定的品源链地址签名过的。</translation>
     </message>
     <message>
@@ -2256,7 +2256,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>清空所有验证消息栏</translation>
     </message>
     <message>
-        <source>Enter a BlockChainOfTraceableCommodities address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a InterPlanetaryFileSystem address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="obsolete">请输入品源链地址 (例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
@@ -2265,18 +2265,18 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>单击“签名消息“产生签名。</translation>
     </message>
     <message>
-        <source>Enter BlockChainOfTraceableCommodities signature</source>
+        <source>Enter InterPlanetaryFileSystem signature</source>
         <translation type="obsolete">输入品源链签名</translation>
     </message>
     <message>
         <location line="-1"/>
         <location line="+3"/>
-        <source>Enter a valid BlockChainOfTraceableCommodities address</source>
+        <source>Enter a valid InterPlanetaryFileSystem address</source>
         <translation type="unfinished">输入一个有效的品源链地址</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Enter BlockChainOfTraceableCommodities signature</source>
+        <source>Enter InterPlanetaryFileSystem signature</source>
         <translation type="unfinished">输入品源链签名</translation>
     </message>
     <message>
@@ -2349,8 +2349,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>The BlockChainOfTraceableCommodities developers</source>
-        <translation type="obsolete">BlockChainOfTraceableCommodities-qt 客户端开发团队</translation>
+        <source>The InterPlanetaryFileSystem developers</source>
+        <translation type="obsolete">InterPlanetaryFileSystem-qt 客户端开发团队</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2912,7 +2912,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>BlockChainOfTraceableCommodities version</source>
+        <source>InterPlanetaryFileSystem version</source>
         <translation type="obsolete">品源链版本</translation>
     </message>
     <message>
@@ -2921,8 +2921,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>使用：</translation>
     </message>
     <message>
-        <source>Send command to -server or BlockChainOfTraceableCommoditiesd</source>
-        <translation type="obsolete">发送命令到服务器或者 BlockChainOfTraceableCommoditiesd
+        <source>Send command to -server or InterPlanetaryFileSystemd</source>
+        <translation type="obsolete">发送命令到服务器或者 InterPlanetaryFileSystemd
 </translation>
     </message>
     <message>
@@ -2944,13 +2944,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 </translation>
     </message>
     <message>
-        <source>Specify configuration file (default: BlockChainOfTraceableCommodities.conf)</source>
-        <translation type="obsolete">指定配置文件 (默认为 BlockChainOfTraceableCommodities.conf)
+        <source>Specify configuration file (default: InterPlanetaryFileSystem.conf)</source>
+        <translation type="obsolete">指定配置文件 (默认为 InterPlanetaryFileSystem.conf)
 </translation>
     </message>
     <message>
-        <source>Specify pid file (default: BlockChainOfTraceableCommoditiesd.pid)</source>
-        <translation type="obsolete">指定 pid 文件 (默认为 BlockChainOfTraceableCommoditiesd.pid)
+        <source>Specify pid file (default: InterPlanetaryFileSystemd.pid)</source>
+        <translation type="obsolete">指定 pid 文件 (默认为 InterPlanetaryFileSystemd.pid)
 </translation>
     </message>
     <message>
@@ -2990,12 +2990,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>BlockChainOfTraceableCommodities version</source>
+        <source>InterPlanetaryFileSystem version</source>
         <translation type="unfinished">品源链版本</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>BlockChainOfTraceableCommodities</source>
+        <source>InterPlanetaryFileSystem</source>
         <translation type="unfinished">品源链</translation>
     </message>
     <message>
@@ -3005,7 +3005,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Send command to -server or BlockChainOfTraceableCommoditiesd</source>
+        <source>Send command to -server or InterPlanetaryFileSystemd</source>
         <translation type="unfinished">发送命令到服务器或者品源链</translation>
     </message>
     <message>
@@ -3020,13 +3020,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+5"/>
-        <source>Specify configuration file (default: BlockChainOfTraceableCommodities.conf)</source>
-        <translation type="unfinished">指定配置文件(默认: BlockChainOfTraceableCommodities.conf)</translation>
+        <source>Specify configuration file (default: InterPlanetaryFileSystem.conf)</source>
+        <translation type="unfinished">指定配置文件(默认: InterPlanetaryFileSystem.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: BlockChainOfTraceableCommoditiesd.pid)</source>
-        <translation type="unfinished">指定pid文件(默认: BlockChainOfTraceableCommoditiesd.pid)</translation>
+        <source>Specify pid file (default: InterPlanetaryFileSystemd.pid)</source>
+        <translation type="unfinished">指定pid文件(默认: InterPlanetaryFileSystemd.pid)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3086,24 +3086,24 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=BlockChainOfTraceableCommoditiesrpc
+rpcuser=InterPlanetaryFileSystemrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BlockChainOfTraceableCommodities Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;InterPlanetaryFileSystem Alert&quot; admin@foo.com
 </source>
         <translation type="obsolete">%s, 您必须在配置文件设置rpcpassword:
  %s
 建议您使用下面的随机密码:
-rpcuser=BlockChainOfTraceableCommoditiesrpc
+rpcuser=InterPlanetaryFileSystemrpc
 rpcpassword=%s
 (您无需记住此密码)
 用户名和密码 必! 须! 不一样。
 如果配置文件不存在，请自行建立一个只有所有者拥有只读权限的文件。
 推荐您开启提示通知以便收到错误通知，
-像这样: alertnotify=echo %%s | mail -s &quot;BlockChainOfTraceableCommodities Alert&quot; admin@foo.com
+像这样: alertnotify=echo %%s | mail -s &quot;InterPlanetaryFileSystem Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3116,7 +3116,7 @@ rpcpassword=%s
         <translation type="obsolete">绑定指定的IP地址开始监听。IPv6地址请使用[host]:port 格式</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. BlockChainOfTraceableCommodities is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. InterPlanetaryFileSystem is probably already running.</source>
         <translation type="obsolete">无法给数据目录 %s上锁。本软件可能已经在运行。</translation>
     </message>
     <message>
@@ -3154,7 +3154,7 @@ rpcpassword=%s
         <translation type="obsolete">警告：显示的交易可能不正确！您需要升级客户端软件，或者网络上的其他节点需要升级。</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BlockChainOfTraceableCommodities will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong InterPlanetaryFileSystem will not work properly.</source>
         <translation type="obsolete">警告：请检查电脑的日期时间设置是否正确！时间错误可能会导致品源链客户端运行异常。</translation>
     </message>
     <message>
@@ -3348,8 +3348,8 @@ rpcpassword=%s
         <translation>为调试输出信息添加时间戳</translation>
     </message>
     <message>
-        <source>SSL options: (see the BlockChainOfTraceableCommodities Wiki for SSL setup instructions)</source>
-        <translation type="obsolete">SSL选项：(参见BlockChainOfTraceableCommodities Wiki关于SSL设置栏目)</translation>
+        <source>SSL options: (see the InterPlanetaryFileSystem Wiki for SSL setup instructions)</source>
+        <translation type="obsolete">SSL选项：(参见InterPlanetaryFileSystem Wiki关于SSL设置栏目)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3524,12 +3524,12 @@ rpcpassword=%s
         <translation>wallet.dat钱包文件加载错误：钱包损坏</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of BlockChainOfTraceableCommodities</source>
-        <translation type="obsolete">wallet.dat钱包文件加载错误：请升级到最新BlockChainOfTraceableCommodities客户端</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of InterPlanetaryFileSystem</source>
+        <translation type="obsolete">wallet.dat钱包文件加载错误：请升级到最新InterPlanetaryFileSystem客户端</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart BlockChainOfTraceableCommodities to complete</source>
-        <translation type="obsolete">钱包文件需要重写：请退出并重新启动BlockChainOfTraceableCommodities客户端</translation>
+        <source>Wallet needed to be rewritten: restart InterPlanetaryFileSystem to complete</source>
+        <translation type="obsolete">钱包文件需要重写：请退出并重新启动InterPlanetaryFileSystem客户端</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -3572,7 +3572,7 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+17"/>
-        <source>Cannot obtain a lock on data directory %s.  BlockChainOfTraceableCommodities is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  InterPlanetaryFileSystem is probably already running.</source>
         <translation type="unfinished">无法从数据目录 %s 获得锁定.  品源链客户端可能已在运行中.</translation>
     </message>
     <message>
@@ -3606,12 +3606,12 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+8"/>
-        <source>Unable to bind to %s on this computer. BlockChainOfTraceableCommodities is probably already running.</source>
+        <source>Unable to bind to %s on this computer. InterPlanetaryFileSystem is probably already running.</source>
         <translation type="unfinished">无法绑定到该计算机上的 %s. 品源链客户端可能已在运行中。</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BlockChainOfTraceableCommodities will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong InterPlanetaryFileSystem will not work properly.</source>
         <translation type="unfinished">警告：请确认您计算机的本地时间。如果时钟错误，品源链客户端将不能正常工作。</translation>
     </message>
     <message>
@@ -3646,7 +3646,7 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+3"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BlockChainOfTraceableCommodities</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of InterPlanetaryFileSystem</source>
         <translation type="unfinished">wallet.dat钱包文件加载错误：请升级到最新品源链客户端</translation>
     </message>
     <message>
@@ -3726,7 +3726,7 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BlockChainOfTraceableCommodities to complete</source>
+        <source>Wallet needed to be rewritten: restart InterPlanetaryFileSystem to complete</source>
         <translation type="unfinished">需要重写钱包，重启客户端以完成该操作。</translation>
     </message>
     <message>
@@ -3750,7 +3750,7 @@ rpcpassword=%s
         <translation>添加节点并与其保持连接</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. BlockChainOfTraceableCommodities is probably already running.</source>
+        <source>Unable to bind to %s on this computer. InterPlanetaryFileSystem is probably already running.</source>
         <translation type="obsolete">无法在本机绑定 %s 端口 . 品源链客户端软件可能已经在运行.</translation>
     </message>
     <message>

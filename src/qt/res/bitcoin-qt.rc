@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "BlockChainOfTraceableCommodities"
-            VALUE "FileDescription",    "BlockChainOfTraceableCommodities-Qt (OSS GUI client for BlockChainOfTraceableCommodities)"
+            VALUE "CompanyName",        "InterPlanetaryFileSystem"
+            VALUE "FileDescription",    "InterPlanetaryFileSystem-Qt (OSS GUI client for InterPlanetaryFileSystem)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "BlockChainOfTraceableCommodities-qt"
-            VALUE "LegalCopyright",     "2009-2016 The Bitcoin developers, 2015-2016 The BlockChainOfTraceableCommodities developers"
+            VALUE "InternalName",       "InterPlanetaryFileSystem-qt"
+            VALUE "LegalCopyright",     "2009-2016 The Bitcoin developers, 2015-2016 The InterPlanetaryFileSystem developers"
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "BlockChainOfTraceableCommodities-qt.exe"
-            VALUE "ProductName",        "BlockChainOfTraceableCommodities-Qt"
+            VALUE "OriginalFilename",   "InterPlanetaryFileSystem-qt.exe"
+            VALUE "ProductName",        "InterPlanetaryFileSystem-Qt"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

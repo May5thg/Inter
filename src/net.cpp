@@ -16,10 +16,10 @@
 #endif
 
 #ifdef USE_UPNP
-#include <miniwget.h>
-#include <miniupnpc.h>
-#include <upnpcommands.h>
-#include <upnperrors.h>
+#include <miniupnpc/miniwget.h>
+#include <miniupnpc/miniupnpc.h>
+#include <miniupnpc/upnpcommands.h>
+#include <miniupnpc/upnperrors.h>
 #endif
 
 using namespace std;
@@ -1061,7 +1061,7 @@ void ThreadMapPort2(void* parg)
             }
         }
 
-        string strDesc = "BlockChainOfTraceableCommodities " + FormatFullVersion();
+        string strDesc = "InterPlanetaryFileSystem " + FormatFullVersion();
 #ifndef UPNPDISCOVER_SUCCESS
         /* miniupnpc 1.5 */
         r = UPNP_AddPortMapping(urls.controlURL, data.first.servicetype,
@@ -1150,9 +1150,8 @@ void MapPort()
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
 
-    {"seed1", "47.91.250.188"},
-    {"seed2", "47.52.76.167"},
-    {"seed2", "47.52.117.91"}
+    {"seed1", "47.244.39.168"},
+    {"seed1", "47.244.143.96"}
 
     // 朵朵学院旧版的教程，这个列表的值是下面的，然后主节点会自动绑定本机IP，其他节点在exe快捷方式里addnode主节点的IP。
     // 但我们这个是新版代码，这样做好像不行
@@ -1755,7 +1754,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-            strError = strprintf(_("Unable to bind to %s on this computer. BlockChainOfTraceableCommodities is probably already running."), addrBind.ToString().c_str());
+            strError = strprintf(_("Unable to bind to %s on this computer. InterPlanetaryFileSystem is probably already running."), addrBind.ToString().c_str());
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());

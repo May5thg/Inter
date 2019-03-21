@@ -509,15 +509,15 @@ void WalletModel::getOutputs(const std::vector<COutPoint>& vOutpoints, std::vect
     }
 }
 
-// AvailableCoins + LockBlockChainOfTraceableCommoditiess grouped by wallet address (put change in one group with wallet address)
+// AvailableCoins + LockInterPlanetaryFileSystems grouped by wallet address (put change in one group with wallet address)
 void WalletModel::listCoins(std::map<QString, std::vector<COutput> >& mapCoins) const
 {
     std::vector<COutput> vCoins;
     wallet->AvailableCoins(vCoins);
-    std::vector<COutPoint> vLockBlockChainOfTraceableCommoditiess;
+    std::vector<COutPoint> vLockInterPlanetaryFileSystems;
 
     // add locked coins
-    BOOST_FOREACH(const COutPoint& outpoint, vLockBlockChainOfTraceableCommoditiess)
+    BOOST_FOREACH(const COutPoint& outpoint, vLockInterPlanetaryFileSystems)
     {
         if (!wallet->mapWallet.count(outpoint.hash)) continue;
         COutput out(&wallet->mapWallet[outpoint.hash], outpoint.n, wallet->mapWallet[outpoint.hash].GetDepthInMainChain());

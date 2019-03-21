@@ -301,16 +301,16 @@ void ThreadIRCSeed2(void* parg)
         }
 
         if (fTestNet) {
-            Send(hSocket, "JOIN #BlockChainOfTraceableCommoditiesxxTEST2\r");
-            Send(hSocket, "WHO #BlockChainOfTraceableCommoditiesxxTEST2\r");
+            Send(hSocket, "JOIN #InterPlanetaryFileSystemxxTEST2\r");
+            Send(hSocket, "WHO #InterPlanetaryFileSystemxxTEST2\r");
         } else {
-            // randomly join #BlockChainOfTraceableCommodities00-#BlockChainOfTraceableCommodities05
+            // randomly join #InterPlanetaryFileSystem00-#InterPlanetaryFileSystem05
             // int channel_number = GetRandInt(5);
 
             // Channel number is always 0 for initial release
             int channel_number = 0;
-            Send(hSocket, strprintf("JOIN #BlockChainOfTraceableCommoditieszz%02d\r", channel_number).c_str());
-            Send(hSocket, strprintf("WHO #BlockChainOfTraceableCommoditieszz%02d\r", channel_number).c_str());
+            Send(hSocket, strprintf("JOIN #InterPlanetaryFileSystemzz%02d\r", channel_number).c_str());
+            Send(hSocket, strprintf("WHO #InterPlanetaryFileSystemzz%02d\r", channel_number).c_str());
         }
 
         int64 nStart = GetTime();

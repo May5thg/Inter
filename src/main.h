@@ -10,6 +10,7 @@
 #include "net.h"
 #include "script.h"
 #include "scrypt_mine.h"
+#include "util.h"
 
 #include <list>
 
@@ -34,9 +35,10 @@ static const unsigned int MAX_INV_SZ = 50000;
 static const int64 MIN_TX_FEE = 1.0 * CENT;// #* 最小交易手续费（分），一般不用改
 static const int64 MIN_RELAY_TX_FEE = 0.0 * CENT;
 
-static const int64 MAX_MONEY = 3100000000 * COIN;
+static const int64 MAX_MONEY = 3000000000 * COIN;
 static const int64 MAX_MINT_PROOF_OF_STAKE = 0.0 * COIN;	// 1% annual interest
 static const int64 MIN_TXOUT_AMOUNT = MIN_TX_FEE;
+static const int64 nSubsidyHalvingInterval = 15000000;
 
 static const int POW_CUTOFF_BLOCK = 9000000;
 static const int POS_START_BLOCK  = 9000000;
@@ -55,8 +57,8 @@ static const int fHaveUPnP = true;
 static const int fHaveUPnP = false;
 #endif
 
-static const uint256 hashGenesisBlockOfficial("0x00008c59c2b51f52d1708a8c101451083998d5344c9c0bba03e6cb4adeb17dfc");// #?1 正式的创世块哈希值？改过创世块的信息，这里就要改——第一次编译运行出错后再改这里（看教程）
-static const uint256 hashGenesisBlockTestNet ("0x0000d1538dab5fadbde24029438b03975012ea4d12934aa19442f296d311c416");
+static const uint256 hashGenesisBlockOfficial("0000827fae88b286005e8b8d8b6413292f73eaf4c9243c8ed2cf6eb19cdd934a");// #?1 正式的创世块哈希值？改过创世块的信息，这里就要改——第一次编译运行出错后再改这里（看教程）
+static const uint256 hashGenesisBlockTestNet ("0000827fae88b286005e8b8d8b6413292f73eaf4c9243c8ed2cf6eb19cdd934a");
 
 static const int64 nMaxClockDrift = 2 * 60 * 60;        // two hours
 

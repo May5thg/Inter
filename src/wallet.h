@@ -19,9 +19,9 @@
 #include "walletdb.h"
 
 // Settings
-extern int64_t nTransactionFee;
-extern int64_t nReserveBalance;
-extern int64_t nMinimumInputValue;
+extern int64 nTransactionFee;
+extern int64 nReserveBalance;
+extern int64 nMinimumInputValue;
 extern bool fWalletUnlockStakingOnly;
 extern bool fConfChange;
 

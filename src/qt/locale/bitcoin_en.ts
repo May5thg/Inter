@@ -32,12 +32,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BlockChainOfTraceableCommodities</source>
+        <source>About InterPlanetaryFileSystem</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BlockChainOfTraceableCommodities&lt;/b&gt; version</source>
+        <source>&lt;b&gt;InterPlanetaryFileSystem&lt;/b&gt; version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -68,7 +68,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+6"/>
-        <source>There are your BlockChainOfTraceableCommodities addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>There are your InterPlanetaryFileSystem addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -88,7 +88,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+25"/>
-        <source>Sign a message to prove you own a BlockChainOfTraceableCommodities address</source>
+        <source>Sign a message to prove you own a InterPlanetaryFileSystem address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -121,7 +121,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Verify a message to ensure it was signed with a specified BlockChainOfTraceableCommodities address</source>
+        <source>Verify a message to ensure it was signed with a specified InterPlanetaryFileSystem address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -271,7 +271,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>BlockChainOfTraceableCommodities will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>InterPlanetaryFileSystem will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -356,7 +356,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-126"/>
-        <source>BlockChainOfTraceableCommodities</source>
+        <source>InterPlanetaryFileSystem</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -366,7 +366,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+6"/>
-        <source>Send coins to a BlockChainOfTraceableCommodities address</source>
+        <source>Send coins to a InterPlanetaryFileSystem address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -435,7 +435,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Modify configuration options for BlockChainOfTraceableCommodities</source>
+        <source>Modify configuration options for InterPlanetaryFileSystem</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -456,12 +456,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+89"/>
         <location line="+60"/>
-        <source>BlockChainOfTraceableCommodities client</source>
+        <source>InterPlanetaryFileSystem client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BlockChainOfTraceableCommodities network</source>
+        <source>%n active connection(s) to InterPlanetaryFileSystem network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -505,12 +505,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-11"/>
-        <source>&amp;About BlockChainOfTraceableCommodities</source>
+        <source>&amp;About InterPlanetaryFileSystem</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about BlockChainOfTraceableCommodities</source>
+        <source>Show information about InterPlanetaryFileSystem</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -697,7 +697,7 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BlockChainOfTraceableCommodities address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid InterPlanetaryFileSystem address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -740,7 +740,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BlockChainOfTraceableCommodities can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. InterPlanetaryFileSystem can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -785,7 +785,7 @@ Address: %4
         <location line="+80"/>
         <location line="+86"/>
         <location line="+38"/>
-        <source>0.00 BCTC</source>
+        <source>0.00 SFIS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1075,7 +1075,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BlockChainOfTraceableCommodities address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid InterPlanetaryFileSystem address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1107,7 +1107,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+0"/>
         <location line="+12"/>
-        <source>BlockChainOfTraceableCommodities-Qt</source>
+        <source>InterPlanetaryFileSystem-Qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1169,8 +1169,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+34"/>
-        <source>&amp;Start BlockChainOfTraceableCommodities on system login</source>
-        <translation>&amp;Start BlockChainOfTraceableCommodities on system login</translation>
+        <source>&amp;Start InterPlanetaryFileSystem on system login</source>
+        <translation>&amp;Start InterPlanetaryFileSystem on system login</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1202,17 +1202,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-43"/>
-        <source>Automatically start BlockChainOfTraceableCommodities after logging in to the system.</source>
+        <source>Automatically start InterPlanetaryFileSystem after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Automatically open the BlockChainOfTraceableCommodities client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the InterPlanetaryFileSystem client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Connect to the BlockChainOfTraceableCommodities network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the InterPlanetaryFileSystem network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1287,12 +1287,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BlockChainOfTraceableCommodities.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting InterPlanetaryFileSystem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+33"/>
-        <source>Whether to show BlockChainOfTraceableCommodities addresses in the transaction list.</source>
+        <source>Whether to show InterPlanetaryFileSystem addresses in the transaction list.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1357,7 +1357,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BlockChainOfTraceableCommodities.</source>
+        <source>This setting will take effect after restarting InterPlanetaryFileSystem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1409,7 +1409,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+7"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BlockChainOfTraceableCommodities network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the InterPlanetaryFileSystem network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1570,12 +1570,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-10"/>
-        <source>BlockChainOfTraceableCommodities - Debug window</source>
+        <source>InterPlanetaryFileSystem - Debug window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+313"/>
-        <source>BlockChainOfTraceableCommodities Core</source>
+        <source>InterPlanetaryFileSystem Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1625,7 +1625,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+134"/>
-        <source>Open the BlockChainOfTraceableCommodities debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the InterPlanetaryFileSystem debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1640,7 +1640,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-131"/>
-        <source>Show the BlockChainOfTraceableCommodities-Qt help message to get a list with possible BlockChainOfTraceableCommodities command-line options.</source>
+        <source>Show the InterPlanetaryFileSystem-Qt help message to get a list with possible InterPlanetaryFileSystem command-line options.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1690,7 +1690,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BlockChainOfTraceableCommodities RPC console.</source>
+        <source>Welcome to the InterPlanetaryFileSystem RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1764,7 +1764,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BCTC</source>
+        <source>0.00 SFIS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1834,12 +1834,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BCTC</source>
+        <source>123.456 SFIS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>123.456 BCTC</source>
-        <translation type="obsolete">123.456 BCTC</translation>
+        <source>123.456 SFIS</source>
+        <translation type="obsolete">123.456 SFIS</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1853,7 +1853,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-191"/>
-        <source>Enter a BlockChainOfTraceableCommodities address</source>
+        <source>Enter a InterPlanetaryFileSystem address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1953,7 +1953,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+257"/>
-        <source>WARNING: Invalid BlockChainOfTraceableCommodities address</source>
+        <source>WARNING: Invalid InterPlanetaryFileSystem address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2031,7 +2031,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a valid BlockChainOfTraceableCommodities address</source>
+        <source>Enter a valid InterPlanetaryFileSystem address</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2096,7 +2096,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BlockChainOfTraceableCommodities address</source>
+        <source>Sign the message to prove you own this InterPlanetaryFileSystem address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2106,7 +2106,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BlockChainOfTraceableCommodities address</source>
+        <source>Verify the message to ensure it was signed with the specified InterPlanetaryFileSystem address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2164,12 +2164,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-1"/>
         <location line="+3"/>
-        <source>Enter a valid BlockChainOfTraceableCommodities address</source>
+        <source>Enter a valid InterPlanetaryFileSystem address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Enter BlockChainOfTraceableCommodities signature</source>
+        <source>Enter InterPlanetaryFileSystem signature</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2844,7 +2844,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+5"/>
-        <source>Cannot obtain a lock on data directory %s.  BlockChainOfTraceableCommodities is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  InterPlanetaryFileSystem is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2929,7 +2929,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to bind to %s on this computer. BlockChainOfTraceableCommodities is probably already running.</source>
+        <source>Unable to bind to %s on this computer. InterPlanetaryFileSystem is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2977,7 +2977,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BlockChainOfTraceableCommodities</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of InterPlanetaryFileSystem</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3017,12 +3017,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>BlockChainOfTraceableCommodities version</source>
+        <source>InterPlanetaryFileSystem version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>BlockChainOfTraceableCommodities</source>
+        <source>InterPlanetaryFileSystem</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3057,7 +3057,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or BlockChainOfTraceableCommoditiesd</source>
+        <source>Send command to -server or InterPlanetaryFileSystemd</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3087,7 +3087,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify configuration file (default: BlockChainOfTraceableCommodities.conf)</source>
+        <source>Specify configuration file (default: InterPlanetaryFileSystem.conf)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3097,7 +3097,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify pid file (default: BlockChainOfTraceableCommoditiesd.pid)</source>
+        <source>Specify pid file (default: InterPlanetaryFileSystemd.pid)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3133,7 +3133,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BlockChainOfTraceableCommodities to complete</source>
+        <source>Wallet needed to be rewritten: restart InterPlanetaryFileSystem to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3193,7 +3193,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-48"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BlockChainOfTraceableCommodities will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong InterPlanetaryFileSystem will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
